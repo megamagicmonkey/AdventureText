@@ -8,7 +8,7 @@ namespace AdventureText.WeaponClasses
 {
      public class Fists : Weapon
     {
-        public override int MaxDamage => Player.Str - 3;
+        public override int MaxDamage => Player.Str - 4;
         public override string Name => "fists";
 
         public override int Attack()

@@ -8,7 +8,7 @@ namespace AdventureText.WeaponClasses
 {
     public class Spear : Weapon
     {
-        public override int MaxDamage => (Player.Str + 10);
+        public override int MaxDamage => (Player.Str + 14);
         public override string Name => "spear";
 
         public override int Attack()

@@ -16,7 +16,7 @@ namespace AdventureText.WeaponClasses
             int damage;
             Random rng = new Random();
 
-            damage = rng.Next(Player.MinDmg, MaxDamage + 1);
+            damage = rng.Next(Player.MinDmg + 3, MaxDamage + 1);
 
             if (damage == MaxDamage)
             {

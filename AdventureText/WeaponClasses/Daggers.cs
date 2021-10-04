@@ -8,7 +8,7 @@ namespace AdventureText.WeaponClasses
 {
     public class Daggers : Weapon
     {
-        public override int MaxDamage => (int)Math.Ceiling((Player.Str * 0.8));
+        public override int MaxDamage => (int)Math.Ceiling((Player.Str * 0.6));
 
         public override string Name => "twin daggers";
 
